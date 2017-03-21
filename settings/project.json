@@ -3,17 +3,65 @@
     [
       false,
       true,
-      false
-    ],
-    [
+      false,
+      true,
       true,
       false,
       true
     ],
     [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "design-resolution-height": 640,
@@ -24,7 +72,11 @@
   "group-list": [
     "player",
     "wall",
-    "shadow-player"
+    "shadow-player",
+    "danger",
+    "toggle",
+    "mirror",
+    "gate"
   ],
   "simulator-orientation": false,
   "simulator-resolution": {

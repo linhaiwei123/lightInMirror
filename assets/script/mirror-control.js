@@ -52,7 +52,9 @@ cc.Class({
     onSpacePress: function(){
         //人物和影子交换位置
         //检测镜子是否放下
-        if(this._mirrorSet){
+        //检查影子是否在墙壁里面
+        let wallTouch = !!this._shadowPlayer.getComponent('shadow-player-control')._wallTouch;
+        if(this._mirrorSet && !wallTouch){
             let shadowPlayerPosition = this._shadowPlayer.position.clone();
             let playerPosition = this.player.position.clone();
             this.player.position = shadowPlayerPosition;
